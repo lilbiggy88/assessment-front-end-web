@@ -1,5 +1,5 @@
 body {
-  background: #ddd;
+  background: #1f683b;
   margin: 1rem;
   padding: 1rem;
   max-width: 500px;
@@ -9,6 +9,11 @@ body {
 
 nav {
 	border-bottom: 2px solid orange;
+	width: 100%;
+	margin: 20px 0;
+	background-color: yellow;
+	
+
 }
 
 ol {
@@ -16,8 +21,10 @@ ol {
 }
 
 .crumb {
-	margin-right: 2em;
-	display: inline;
+	 margin-right: 7em;
+	display: inline-flex;
+
+
 }
 
 a {
@@ -36,3 +43,81 @@ input {
 img {
 	max-width: 300px;
 }
+
+.me {
+text-align:center;
+}
+.sub-head {
+	text-align: center;
+	text-decoration: underline;
+	}
+
+.skills {
+border: 1px solid;
+display: flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+
+
+
+}
+ul {
+	margin:0;
+	padding:0;
+	text-align: center;
+	list-style-type:disc;
+}
+
+
+
+.interests {
+	border: 1px dotted;
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+
+}
+
+.goals {
+	border: 1px dashed;
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+
+
+.buttons {
+border: black;
+}
+
+.fav {
+	background-color: black;
+	border: 5px;
+	color: yellow;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.fav:hover {
+	background-color: yellow;
+color: black;
+padding: 20px 20px;
+border:1px dotted black;
+}
+
+.welcomesandy {
+	text-align: center;
+	text-decoration: underline;
+}
+
+.sandy-pic {
+	max-width: 500px;
+	max-height: 500px;
+}
+
